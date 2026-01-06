@@ -5,4 +5,5 @@
 !.gitignore
 !*.ipynb
 !README.md
+!requirements.txt
 

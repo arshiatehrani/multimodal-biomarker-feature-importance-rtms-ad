@@ -1,0 +1,21 @@
+# Core Data Science
+pandas
+numpy
+openpyxl
+
+# Machine Learning
+scikit-learn
+xgboost
+imbalanced-learn
+
+# Model Interpretation
+shap
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+joblib
+psutil
+
