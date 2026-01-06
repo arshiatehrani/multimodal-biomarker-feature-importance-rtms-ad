@@ -18,4 +18,5 @@ seaborn
 # Utilities
 joblib
 psutil
+ipykernel
 
