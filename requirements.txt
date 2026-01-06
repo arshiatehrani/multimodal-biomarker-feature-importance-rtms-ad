@@ -21,3 +21,33 @@ joblib
 psutil
 ipykernel
 
+# ============================================================
+# GPU SUPPORT (Optional)
+# ============================================================
+# 
+# PyTorch with CUDA 12.9 (for GPU-accelerated deep learning):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu129
+#
+# XGBoost GPU (already installed above, enable with device="cuda" in code):
+#   XGBoost automatically detects CUDA if available
+#
+# cuML / RAPIDS (GPU-accelerated ML including SVM):
+#   ⚠️ NOT AVAILABLE ON WINDOWS - Linux only
+#   On Linux with CUDA 12.x:
+#     pip install cudf-cu12 cuml-cu12 --extra-index-url=https://pypi.nvidia.com
+#
+# ============================================================
+# CUDA VERSION REFERENCE
+# ============================================================
+# Check your CUDA version: nvidia-smi (top right shows CUDA Version)
+#
+# CUDA 12.x (12.1, 12.4, 12.9, etc.):
+#   PyTorch: --index-url https://download.pytorch.org/whl/cu121 (or cu124)
+#   Note: PyTorch cu129 wheel may not exist yet, use cu124 or cu121
+#
+# CUDA 11.8:
+#   PyTorch: --index-url https://download.pytorch.org/whl/cu118
+#
+# CPU only (no GPU):
+#   PyTorch: --index-url https://download.pytorch.org/whl/cpu
+# ============================================================
